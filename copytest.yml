@@ -1,6 +1,7 @@
 ---
 - name: Testing a copy task
   hosts: all
+  become: true
 
   tasks:
     - name: test a simple copy
