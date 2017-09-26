@@ -7,3 +7,4 @@
       copy:
         src: /tmp/copytest.txt
         dest: /var/tmp/copytest.txt
+        remote_src: yes
